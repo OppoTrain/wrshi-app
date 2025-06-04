@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { FaUser, FaEnvelope } from "react-icons/fa";
+import { FaUser } from "react-icons/fa";
+import { IoMdPhonePortrait } from "react-icons/io";
 import { Controller, useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { workerSchema } from "@/app/utils/workerSchema";
@@ -105,7 +106,7 @@ const WorkerForm = () => {
                             {...register("phoneNumber")}
                             className={`w-full mt-2 px-4 py-3 bg-gray-100 rounded-lg pr-12 pl-4 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#247BA0] text-right`}
                         />
-                        <FaEnvelope
+                        <IoMdPhonePortrait
                             className={`absolute ${
                                 errors.phoneNumber ? "top-3/10" : "top-3/7"
                             } right-4 text-gray-500 pointer-events-none`}
