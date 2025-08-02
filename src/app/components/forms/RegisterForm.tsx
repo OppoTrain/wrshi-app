@@ -12,10 +12,17 @@ const RegisterForm = () => {
     };
 
     return (
+ 
         <section
             className="py-8 px-4 flex flex-col items-center text-center"
             id="register"
         >
+            <div>
+            <p className={"text-lg text-gray-600"}>
+            ملاحظة: التطبيق متوفر حالياً لأجهزة الأندرويد. إذا كنت تستخدم آيفون، سجل بياناتك هنا وسنخبرك فور توفر النسخة المخصصة للآيفون.
+        </p>
+<br />
+            </div>
             <div className="bg-white py-10 px-6 sm:px-10 md:px-20 rounded-2xl shadow-lg w-full max-w-5xl">
                 <div className="flex justify-center mb-8">
                     <div className="flex flex-col sm:flex-row rounded-xl border border-[#247BA0] gap-2 py-1 px-2 ">

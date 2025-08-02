@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
+
 const Hero = () => {
     return (
         <div className="flex flex-col md:flex-row justify-between items-center max-w-[1240px] mx-auto px-4 py-25">
@@ -11,11 +12,13 @@ const Hero = () => {
                     loading="lazy"
                     className="w-full max-w-[400px] sm:max-w-[500px] md:max-w-[600px] lg:w-[784px] lg:h-[784px] object-cover"
                 />
+           
             </div>
 
             <div className="w-full md:w-[40%] text-center md:text-right space-y-5 md:space-y-16 mt-8 md:mt-0 md:pl-10">
                 <h1 className="font-semibold text-[36px] md:text-[66px] leading-[66px] text-[#000102] font-inter">
-                    ...ورشة
+                    ...ورشة 
+       
                 </h1>
                 <p className="font-normal text-[16px] sm:text-[20px] md:text-[28px] leading-8 text-[#000102] font-inter">
                     !عنوانك الأول و الأسرع لأقرب عامل <br />
@@ -30,7 +33,9 @@ const Hero = () => {
                         سجل الان
                     </button>
                 </Link>
+
             </div>
+        
         </div>
     );
 };

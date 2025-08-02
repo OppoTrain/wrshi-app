@@ -72,7 +72,7 @@ const WorkerForm = () => {
             </div>
             <div className="w-full space-y-4">
                 <p className={"text-lg text-gray-600 text-right"}>
-                    أنت عامل او فني او صاحب مهنة ؟
+                  أنت عامل او فني او صاحب مهنة ؟
                     <br />
                     سجل معنا لنشبكك بفرصة الشغل المناسبة والقريبة
                 </p>

@@ -2,6 +2,9 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import { IoMdMenu, IoMdClose } from "react-icons/io";
+import DownloadButton from "./DownloadButton";
+
+
 
 const MobileMenu = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -39,6 +42,9 @@ const MobileMenu = () => {
                             سجل الان
                         </button>
                     </Link>
+                    <li>
+                        <DownloadButton />
+                    </li>
                 </ul>
             </div>
         </>

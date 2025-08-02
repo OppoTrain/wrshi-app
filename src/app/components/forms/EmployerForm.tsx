@@ -71,7 +71,7 @@ const EmployerForm = () => {
             </div>
             <div className="w-full space-y-4">
                 <p className="text-lg text-gray-600 text-right">
-                    هل تبحث عن عامل ؟ فني ؟ لبيتك او حديقتك او لمساعدتك في أي
+                هل تبحث عن عامل ؟ فني ؟ لبيتك او حديقتك او لمساعدتك في أي
                     عمل
                     <br />
                     سجل معنا لنشبكك بالعامل الأقرب والانسب
